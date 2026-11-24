@@ -1,0 +1,9 @@
+# Ignore generated test/coverage reports in language statistics
+report/** linguist-vendored
+**/build/** linguist-vendored
+**/target/** linguist-vendored
+
+# Fallback: exclude all HTML/CSS/JS report assets from language stats
+*.html linguist-generated=true
+*.css linguist-generated=true
+*.js linguist-generated=true
